@@ -1,11 +1,11 @@
-# Automatically Predict Material Properties with Microscopic Image: Example Polymer Compatibility
+# Automatically Predict Material Properties with Microscopic Image: Example Polymer Miscibility
 
 
-We realized the polymer compatibility prediction with SEM images through tranfer learning method.
+We realized the polymer miscibility prediction with SEM images through tranfer learning method.
 
 The alghorism is realized with python, and the details are presented in the Model_nopre.py and Model_pre.py.
 
-The dataset used in the machine learning method is established by collecting the poblished researches, and all images are storaged in NIMS_image. 
+The dataset used in the machine learning method is established by collecting the published researches, and all images are storaged in NIMS_image. 
 
 Manual directory is the manual recognition results.
 
