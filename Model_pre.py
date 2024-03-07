@@ -90,7 +90,7 @@ for ite in range(20):
     class DenseNet(nn.Module):
         def __init__(self,num_class = 2):
             super(DenseNet,self).__init__()
-            net = models.vgg16(pretrained=True)
+            net = models.densenet121(pretrained=True)
             net.classifier = nn.Sequential()
             self.features = net
             self.classifier = nn.Sequential(
